@@ -1,7 +1,6 @@
 {
-  "name": "vue-project",
-  "version": "0.0.0",
-  "private": true,
+  "name": "create-vue3-wonjin-template",
+  "version": "0.0.1",
   "homepage": "https://vue3-template.wonj.in/",
   "scripts": {
     "dev": "vite",

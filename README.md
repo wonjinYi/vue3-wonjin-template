@@ -1,19 +1,23 @@
 # vue3-wonjin-template
-필요한 패키지설치와 설정을 미리 해결해둔 제멋대로 템플릿입니다.
+
+A template that contains useful packages and configs.
 
 ![](./vue-project/src/assets/jongang.jpg)
 
-### 사용하기
-여러가지 방법으로 가져다 쓰시면 됩니다.
-1. npm package-spec 지정하기
-`npm init https://github.com/wonjinYi/vue3-wonjin-template.git`
+### Install
+~~1. npm~~ (will be supported)
 
-2. 클론하기
+~~`npm init vue3-wonjin-template`~~
+
+2. Clone repository
+
 `npm clone https://github.com/wonjinYi/vue3-wonjin-template.git`
 
-3. 복붙하기
-다운로드 -- 복사 -- 내 프로젝트에 붙여넣기
-### 설치된 패키지
+3. copy&paste
+
+Download this Replository as ZIP, copy the contents, then paste to your project
+
+### Installed Packages
 * vue3
 * vue-router
 * vite
@@ -21,39 +25,37 @@
 * axios
 * gh-pages
 
-### 커맨드
-* npm run dev : 개발서버 실행
-* npm run build : 빌드
-* npm run deploy : GITHUB PAGES로 배포
-* npm run lint : eslint로 린팅
+### Commands
+* npm run dev : Run development server
+* npm run build : Build with vite (make the new directory `dist`)
+* npm run deploy : Deploy to the Github Pages
+* npm run lint : Lint with eslint
 
-### 설정된 내용
+### Configured 
 * vite.config.js
-  * `src`폴더를 `@`으로 가리킬 수 있습니다.
-  * 모든 SFC에서 `src/assets/global.scss`를 불러옵니다.
+  * All SFCs Use alias **@** for `src`
+  * All SFCs load `src/assets/global.scss`
 * src/router.js
-  * 두 개의 뷰를 표시합니다. (메인, NOTFOUND)
+  * Configure 2 views (main, not-found)
 * eslintrc.cjs
-  * 린트 설정이 되어있습니다. 
   * https://www.gymcoding.co/eslint-prettier
 * index.html
-  * `public/reset.css`를 불러옵니다.
+  * loads `public/reset.css`
 * main.js
-  * App.vue를 index.html에 삽입합니다.
-  * router.js 라우터 설정을 불러옵니다.
+  * Inserts `App.vue` to `index.html`
+  * Loads router config from `router.js`
 * App.vue
-  * router-view가 잡혀있습니다.
+  * Contains `router-view`
 
-### 프로젝트 폴더 구조
-vue-project 폴더 내부입니다.
+### Files
 ```
 [assets] : favicon, reset.css
 [components]
-[views] : MAIN, NOTFOUND 두 개 뷰 포함
+[views] : MAIN, NOTFOUND view.
 
-App.vue : 최상위 컴포넌트
+App.vue : The root component
 main.js
-router.js : vue-router설정
+router.js
 index.html
 
 .eslintrc.cjs
