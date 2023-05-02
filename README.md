@@ -2,7 +2,7 @@
 
 A template that contains useful packages and configs.
 
-![](./vue-project/src/assets/jongang.jpg)
+![](./src/assets/jongang.jpg)
 
 ### Install
 ~~1. npm~~ (will be supported)
