@@ -1,17 +1,18 @@
 <template>
-	<h1>{{ title }}</h1>
-	<router-view></router-view>
+  <router-view class="router-view"></router-view>
 </template>
 
-<script setup>
-import { ref } from 'vue';
-const title = ref('vue3-wonjin-template');
-</script>
+<script setup></script>
 
+<!-- App.vue local style -->
 <style lang="scss" scoped>
-h1 {
-	text-align: center;
-	color: $my-color;
-	font-size: $my-size;
+.router-view {
+  min-height: 100vh;
 }
+</style>
+
+<!-- global style -->
+<style lang="scss">
+@import "@/assets/styles/reset.css";
+@import "@/assets/styles/main.scss";
 </style>

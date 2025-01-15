@@ -1,7 +1,7 @@
 {
-  "name": "create-vue3-wonjin-template",
+  "name": "vuejs3-wjlee-template",
   "version": "0.0.1",
-  "homepage": "https://vue3-template.wonj.in/",
+  "homepage": "https://example.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -15,6 +15,7 @@
   "dependencies": {
     "axios": "^1.4.0",
     "gh-pages": "^5.0.0",
+    "pinia": "^2.3.0",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
