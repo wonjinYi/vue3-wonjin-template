@@ -1,5 +1,6 @@
 {
   "name": "vuejs3-wjlee-template",
+  "type": "module",
   "version": "0.0.1",
   "homepage": "https://example.com",
   "scripts": {
@@ -8,25 +9,22 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "predeploy": "vite build",
-    "deploy": "gh-pages -d dist",
     "clean": "gh-pages-clean"
   },
   "dependencies": {
     "axios": "^1.4.0",
-    "gh-pages": "^5.0.0",
     "pinia": "^2.3.0",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
-    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue": "^5.2.3",
     "@vue/eslint-config-prettier": "^7.1.0",
     "eslint": "^8.34.0",
     "eslint-plugin-vue": "^9.9.0",
     "prettier": "^2.8.4",
     "sass": "^1.62.1",
-    "vite": "^4.1.4"
+    "vite": "^6.3.3"
   }
 }
